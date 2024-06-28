@@ -11,12 +11,6 @@ const sequelize = new Sequelize(
     define: {
       timestamps: false,
     },
-    dialectOptions: {
-      ssl: {
-        require: true,
-        rejectUnauthorized: false,
-      },
-    },
   }
 );
 
